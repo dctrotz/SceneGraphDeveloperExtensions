@@ -12,7 +12,7 @@ These handle all the logistics for displaying your content, and they each use a 
 
 ## Step 1: Setting up the environment
 
-If you’re new to Roku Development and you don’t have your environment set up, use the guide here https://www.youtube.com/watch?v=-gq_5NRuHQ8 to set up your Roku and you can use Eclipse with the Brightscript plugin using this guide here https://sdkdocs.roku.com/display/sdkdoc/Roku+Plugin+for+Eclipse+IDE .  If you are new to Brightscript an or Roku Scenegraph development please read through our documentation on it here https://sdkdocs.roku.com/display/sdkdoc/BrightScript+Language+Reference to learn the basics on the language.
+If you√ïre new to Roku Development and you don√ït have your environment set up, use the guide here https://www.youtube.com/watch?v=-gq_5NRuHQ8 to set up your Roku and you can use Eclipse with the Brightscript plugin using this guide here https://sdkdocs.roku.com/display/sdkdoc/Roku+Plugin+for+Eclipse+IDE .  If you are new to Brightscript an or Roku Scenegraph development please read through our documentation on it here https://sdkdocs.roku.com/display/sdkdoc/BrightScript+Language+Reference to learn the basics on the language.
 
 ## Step 2: Setting up SGDEX
 
@@ -40,8 +40,8 @@ bs_libs_required=roku_ads_lib
 The first line is there because all of the views are developed for HD and autoscaled by the firmware to FHD and SD. The second - because framework uses RAF.
 
 Now it is time to start coding your channel!
-We begin with the Main.brs file.
-You should add the line override the function “GetSceneName()” to provide SGDEX the name of your entry scene.  It should look like this:
+We begin with the `Main.brs` file.
+You should add the line override the function `GetSceneName()` to provide SGDEX the name of your entry scene.  It should look like this:
 
 ```
 function GetSceneName() as String
