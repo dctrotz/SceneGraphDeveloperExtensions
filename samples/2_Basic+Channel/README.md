@@ -37,7 +37,7 @@ After you have that all set up you should set up your manifest file. You can fin
 
 Feel free to change the title and images to the fit your channel. You need to make sure you have the line below.
 
-Now it is time to start coding your channel! We begin with the Main.brs file. You should override the function “GetSceneName()” to provide SGDEX with the name of your entry scene.It should look like this:
+Now it is time to start coding your channel! We begin with the Main.brs file. You should override the function `GetSceneName()` to provide SGDEX with the name of your entry scene.It should look like this:
 
 ```
 function GetSceneName() as String
